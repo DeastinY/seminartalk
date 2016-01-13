@@ -90,111 +90,33 @@
 
 				<!-- Einführung in die Problematik -->
 				<section data-state="none">
-					<!-- Maybe remove this slide ?
-					<section style="text-align: left;">
-						<h4>Visualisierung multidimensionaler Zusammenhänge</h4>
-						<p style="font-size: 0.7em;">
-							Dieser Vortrag soll helfen <bold>gute Visualisierungen</bold> zu erstellen. Mit diesen soll es möglich sein <bold>multidimensionale Zusammenhänge</bold> zu analysieren und zu verarbeiten.</br></br>
-
-							Zuerst sollte daher klar sein, wie eine gute Visualisierung erstellt wird. Was häufig falsch gemacht wird und wie man dies umgeht.</br></br>
-
-							Danach können Graphen, mit denen multidimensionale Daten dargestellt werden können, vorgestellt werden.</br></br>
-						</p>
-					</section>
-				-->
-					<section>
-						<h1>Roadmap</h1>
-						<img style="margin:50px;" src="images/overview.png" />
-					</section>
-					<section style="text-align: left;">
-						<h2>Häufige Fehler Vermeiden</h2>
-						<p>
-							Mit diversen simplen Regeln lassen sich grobe Fehler bei der Visualisierung vermeiden.
-						</p>
-						<p style="text-align:center;">
-							<img src="images/mistake.png" width="256" height="256"/>
-						</p>
-					</section>
-					<section style="text-align: left;">
-						<h2>Probleme erkennen und beheben</h2>
-						<p>
-							Verfehlt die Visualisierung ihre Wirkung ist es oft umständlich die Ursache zu finden. Es wird ein Modell präsentiert um dies zu vereinfachen.
-						</p>
-						<p style="text-align:center;">
-							<img src="images/search.png" width="256" height="256"/>
-						</p>
-					</section>
-					<section style="text-align: left;">
-						<h3>Spezielle Graphen</h3>
-						<p>
-							Um mit multidimensionalen Daten zu agieren benötigt man spezielle Darstellungsformen.
-						</p>
-						<p style="text-align:center;">
-							<img src="images/choice.png" width="256" height="256"/>
-						</p>
-					</section>
-					<!-- Zusammengefasst -->
-					<section style="text-align: left;">
-						<table style="width:100%">
-							<tr>
-								<td style="width:10%">
-									<img src="images/mistake.png" width="64" height="64"/>
-								</td>
-								<td style="width:90%; vertical-align:middle;">
-									Wie häufige Probleme vermieden werden können
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<img src="images/search.png" width="64" height="64"/>
-								</td>
-								<td style="vertical-align:middle;">
-									Wie man Ursachen von Problemen findet
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<img src="images/choice.png" width="64" height="64"/>
-								</td>
-								<td style="vertical-align:middle;">
-									Graphen für multidimensionalen Daten
-								</td>
-							</tr>
-						</table>
-					</section>
-				</section>
-
-				<!-- Info -->
-				<section data-state="none">
-					<h2>Häufige Fehler Vermeiden</h2>
-					<p style="text-align:center;">
-						<img src="images/mistake.png" width="256" height="256"/>
-					</p>
+					<h1>Roadmap</h1>
+					<img style="margin:50px;" src="images/overview.png" />
 				</section>
 
 				<!-- Negativbeispiele -->
 				<!-- Skalierung -->
 				<section style="text-align:center;" data-state="mistake" data-transition="fade">
 					<h2>Irreführende Skalierung</h2>
-					<img class="imgbox fragment" height=300 align="center" src="images/figures/foxbad.png"/>
-					<img class="imgbox fragment" height=300 align="center" src="images/figures/foxgood.png"/>
+					<img class="imgbox" height=300 align="center" src="images/figures/foxbad.png"/>
+					<img class="imgbox" height=300 align="center" src="images/figures/foxgood.png"/>
 				</section>
 				<!-- Effekte -->
 				<section style="text-align:center;" data-state="mistake" data-transition="fade">
 					<h2>Verzerrung durch Effekte</h2>
-					<img class="imgbox fragment" height=300 align="center" src="images/figures/usshare_bad.jpeg"/>
-					<img class="imgbox fragment" height=300 align="center" src="images/figures/fixedusshare.jpeg"/>
+					<img class="imgbox" height=300 align="center" src="images/figures/usshare_bad.jpeg"/>
+					<img class="imgbox" height=300 align="center" src="images/figures/fixedusshare.jpeg"/>
 				</section>
 				<!-- Chartjunk -->
 				<section style="text-align:center;" data-state="mistake" data-transition="fade">
 					<h2>Chartjunk</h2>
-					<img class="imgbox fragment" height=300 align="center" src="images/figures/chartjunk_1.jpeg"/>
-					<img class="imgbox fragment" height=300 align="center" src="images/figures/chartjunk_2.jpeg"/>
+					<img class="imgbox" height=300 align="center" src="images/figures/chartjunk_1.jpeg"/>
+					<img class="imgbox" height=300 align="center" src="images/figures/chartjunk_2.jpeg"/>
 				</section>
 				<!-- Data-Ink Ratio -->
 				<section style="text-align:center;" data-state="mistake" data-transition="fade">
 					<h2>Data-Ink Ratio</h2>
-					<div class="fragment">
+					<div>
 						<img class="imgbox" height=300 align="center" src="images/figures/dir.jpg"/>
 					</div>
 				</section>
@@ -202,41 +124,23 @@
 				<section style="text-align:center;" data-state="mistake" data-transition="fade">
 					<h2>Data-Ink Ratio</h2>
 					<img class="imgbox" height=300 align="center" src="images/figures/dirbad2.png"/>
-					<img class="imgbox fragment" height=300 align="center" src="images/figures/dirgood2.png"/>
+					<img class="imgbox" height=300 align="center" src="images/figures/dirgood2.png"/>
 				</section>
 				<!-- Kreisdiagramme -->
 				<section style="text-align:center;" data-state="mistake" data-transition="fade">
 					<h2>Kreisdiagramme</h2>
-					<img class="imgbox fragment" width=500 align="center" src="images/figures/piebad.jpeg"/>
-					<img class="imgbox fragment" width=500 align="center" src="images/figures/piegood.jpeg"/>
-				</section>
-
-				<!-- Info -->
-				<section data-state="none">
-					<h2>Probleme erkennen und beheben</h2>
-					<p style="text-align:center;">
-						<img src="images/search.png" width="256" height="256"/>
-					</p>
+					<img class="imgbox" width=500 align="center" src="images/figures/piebad.jpeg"/>
+					<img class="imgbox" width=500 align="center" src="images/figures/piegood.jpeg"/>
 				</section>
 
 				<!-- Visualisierungspipeline -->
 				<section style="text-align: left;" data-state="search" data-transition="slide">
 					<h2>Visualisierungspipeline</h2>
-					<div style="position:relative; width:1000; height:700px; margin:0 auto;">
-						<img class="fragment" src="images/figures/pipeline1.jpeg" style="position:absolute;top:0;left:0;"/>
-						<img class="fragment" src="images/figures/pipeline2.jpeg" style="position:absolute;top:0;left:0;"/>
-						<img class="fragment" src="images/figures/pipeline3.jpeg" style="position:absolute;top:0;left:0;"/>
-						<img class="fragment" src="images/figures/visualisierungspipeline.jpeg" style="position:absolute;top:0;left:0;"/>
-					</div>
-				</section>
-
-				<!-- info -->
-				<section data-state="none">
-					<h2>Spezielle Graphen</h2>
 					<p style="text-align:center;">
-						<img src="images/choice.png" width="256" height="256"/>
+						<img src="images/figures/visualisierungspipeline.jpeg"/>
 					</p>
 				</section>
+
 				<!-- Unterschiedliche Graphen -->
 				<section style="text-align: left;" data-transition="slide" data-state="choice">
 					<p style="text-align:center;">
@@ -287,15 +191,7 @@
 						<p style="text-align:center;">
 							<h2>n-Dimensional</h2>
 							<p style="text-align:center;">
-								<img src="images/figures/hd3.png" height="440px"/>
-							</p>
-						</p>
-					</section>
-					<section style="text-align: left;" data-transition="fade" data-state="choice">
-						<p style="text-align:center;">
-							<h2>n-Dimensional</h2>
-							<p style="text-align:center;">
-								<img src="images/figures/hd4.png" height="440px"/>
+								<img src="images/figures/spm.png" height="440px"/>
 							</p>
 						</p>
 					</section>
