@@ -65,6 +65,9 @@
 			Reveal.addEventListener( 'choice', function() {
 				document.getElementById('header').innerHTML = "<img src=\"images/choice.png\" style=\"opacity:0.4;\" width=\"128\" height=\"128\"/>";
 			});
+			Reveal.addEventListener( 'pipeline', function() {
+				document.getElementById('header').innerHTML = "<img src=\"images/pipeline.png\" style=\"opacity:0.4;\" width=\"128\" />";
+			});
 		});
 		</script>
 		<!--[if lt IE 9]>
@@ -92,6 +95,14 @@
 				<section data-state="none">
 					<h1>Roadmap</h1>
 					<img style="margin:50px;" src="images/overview.png" />
+				</section>
+
+				<!-- Visualisierungspipeline -->
+				<section style="text-align: left;" data-state="pipeline" data-transition="slide">
+					<h2>Visualisierungspipeline</h2>
+					<p style="text-align:center;">
+						<img src="images/figures/visualisierungspipeline.jpeg"/>
+					</p>
 				</section>
 
 				<!-- Negativbeispiele -->
@@ -131,14 +142,6 @@
 					<h2>Kreisdiagramme</h2>
 					<img class="imgbox" width=500 align="center" src="images/figures/piebad.jpeg"/>
 					<img class="imgbox" width=500 align="center" src="images/figures/piegood.jpeg"/>
-				</section>
-
-				<!-- Visualisierungspipeline -->
-				<section style="text-align: left;" data-state="search" data-transition="slide">
-					<h2>Visualisierungspipeline</h2>
-					<p style="text-align:center;">
-						<img src="images/figures/visualisierungspipeline.jpeg"/>
-					</p>
 				</section>
 
 				<!-- Unterschiedliche Graphen -->
@@ -195,8 +198,6 @@
 							</p>
 						</p>
 					</section>
-				</section>
-				<section>
 					<section style="text-align: left;" data-transition="fade" data-state="choice">
 						<p style="text-align:center;">
 							<h2>n-Dimensional</h2>
