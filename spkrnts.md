@@ -118,12 +118,106 @@ Allgemein:
   - Reduzierte Farben
   - ...
 
+-> Bereits angekündigt, jetzt ein Fall gegen Kreisdiagramme
+
 ## KREISDIAGRAMME
+- Grundsätzlich nicht falsch, aber
+- Sehr oft falsch verwendet
+- Daten (Steve Jobs) werden sehr leicht verfälscht
+- Vergleich vieler (ähnlicher) Größen schwierig
+- Beispiel: Balkendiagramme viel besser
+- Meist sollten Kreisdiagramme nicht genutzt werden
+  - Wenig Nutzen bei wenig Teilen (Text)
+  - Kein Nutzen bei vielen Teilen (Balkendiagramm)
+- Wenn doch benutzen dann nur:
+  - Zwei oder Drei Teile eines Ganzen
+  - Sehr Unterschiedliche Werte
+- Im Allgemeinen:
+  - Ersatz durch kleine Tabellen, Sätze und/oder andere Diagramme ist schnell gefunden
+
+-> Genug gelernt um gute Visualisierung zu erstellen, jetzt mehrdimensionalität
+-> Dazu Unterteilung erst 1/2 und 3 Dimensionales, dann n-Dimensionales
+
 ## 1- UND 2-DIMENSIONAL
+- Eindimensional:
+  - "Zahlenstrahl" zeigt einfache Datenverteilung
+  - Relativ selten
+- Zweidimensional:
+  - Meisten bekannten Graphen sind Zweidimensional
+  - Liniendiagramm (einfach, komplex) (Anzahl/Wert)
+  - Balkendiagramm (hier: gestapelt, auch oft: gruppiert) (Anzahl Wert)
+  - Streudiagramm (Jeder Punkt ein Datensatz (Höhe/Gewicht))
+  - Kastengrafik (Box-Whisker-Plot), median, quartile, ausreißer, minima, maxima
+    - (Zwischen zwei Quartilen (95 Quartil) liegen X % aller Werte)
+
+Beispiele:
+  - Zeit/Temperatur
+  - Haushalte/Haustiere
+  - Anzahl/Klausurnote
+
+-> Ziemlich viele bekannte Darstellungsformen
+-> Jetzt bereits weniger weit verbreitete Formen
+
 ## 3-DIMENSIONAL
+- Drei Raumkoordinaten. Farbe genutzt um Höhe anzuzeigen
+  - Farbe für andere Information (z.B. Temperatur) -> vierdimensional
+- Streudiagramm, zeigt (hier gruppierte) Datensätze im Raum an
+- Heatmap X und Y Wert wird über Farbwert Information zugeordnet (hier: Jahr, Monat, Temperatur)
+- Karte mit Todesfällen zu Adressen Eingetragen (Seminarvortrag) Karte (2D) + Balken
+- (John Snow, 1984, Broadstreet, Cholera Epedemie)
+
+-> Jetzt n-dimensionales, meist nur im wissenschaftlichen Bereich zu finden
+
 ## N-DIMENSIONAL
-### TABLE
-### COMPRESSED TABLE
-### SCATTERPLOT MATRIX
-### PARALLEL COORDINATE MATRIX
+- Alles mit mehr als drei Dimensionen
+  - Raumkoordinaten + Temperatur
+  - Spieler, Jahre an Erfahrung, Treffer insgesamt, Treffer im Durchschnitt, Gehalt
+- Viele Probleme
+- Oft interessant Zusammenhänge herauszufinden
+  - Besonders warm an bestimmter Position
+  - Mehr Gehalt bei Erfahrung oder bei vielen Treffern ?
+
+### TABELLE
+- Einfachste Form der Darstellung
+- Hier: 15 Parameter Pro Messung
+- Informationen lassen sich nur sehr schwer lesen
+- Zusammenhänge kaum zu erkennen
+- Meist liegen Daten in solcher Form vor
+
+### KOMPRIMIERTE TABELLE
+- Daten werden komprimiert
+- Pro Parameter ein Balkendiagramm
+- Mehr Daten können eingesehen werden
+- BeispielDatensätze hier gezeigt (Wade Boggs & Don Mattingly)
+
+### Streudiagramm Matrix
+- Zeigt die Korrelation von x (hier 4) Parametern
+- Somit Summe von k=1 bis n-1 (= (n(n-1))/2) Streudiagramme
+- Wobei die Hälfte nur gespiegelt ist
+- Auf der Diagonalen kann diverses stehen
+  - Boxplots, Dichteschätzungen oder wie hier Gesamtverteilungen
+- Bei vielen Parametern schnell unübersichtlich
+- Interessante Datenstrukturen können nicht sichtbar werden
+  - nur p(p-1)/2 Projektionen
+  - z.B. "Grand Tour"
+    - Streudiagramme im Dreidimensionalen
+    - Parameter werden nach Betrachtung ausgetauscht (einzeln)
+    - Alle Varianten durchprobieren um nichts zu übersehen
+
+-> Weitere Möglichkeit
+
+### Parallele Koordinaten
+- Jede Achse stellt einen Parameter dar
+- Ein Datensatz (hier blau) ist eine Linie, welche die Achsen schneidet
+- Farbliche Gruppierung und Bündelung der Linien zur Vereinfachung
+- Einfache Klusterfindung
+- Skaliert gut mit hohe Dimensionen
+- Mit Übung sind Strukturen gut zu erkennen
+- Da höhere Dimensionen zweidimensional abgebildet werden tritt Informationsverlust auf
+- Anordnung, Rotation und Skalierung der Achsen verändern das Bild
+  - Ermöglichen unterschiedliche Blickwinkel
+  - Schieriger zu Interpretieren
+
+-> Ausreichend Darstellungsformen für multidimensionale Daten an die Hand gegeben.
+
 ## ZUSAMMENFASSUNG
