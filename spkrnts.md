@@ -30,7 +30,28 @@ Motivation :
 - Kombinieren
   - *Gute* Vis. Mult. Dim.
 
--> Beginn mit abstraktem Prozess um aus Daten Vis. zu machen.
+-> Beginn mit Grundlagen der Visualisierung
+
+## Grundlagen
+- Ziel der Visualisierung : Wissen vermitteln
+- Andere müssen Wissen nicht erarbeiten, sondern man zeigt Ergebnisse
+- (Wissenschaftlich anders, aber Grundgedanke gleich)
+- Wichtig sind
+- Motivation:
+  - Warum präsentieren ? Ziel ?
+  - Wissenschaft: Präzise These !
+  - Nur dann möglich:
+    - Daten reduzieren
+    - Nur Wichtiges präsentieren
+- Zielgruppe:
+  - Wer wird angesprochen ?
+  - Kultur, Umfeld, Interessen, Wissen
+  - Unterschied: Arbeit (Fachwissen), Öffentlich oder z.B. Kindergarten
+  - Auch Alter (Ghostbusters 1 - 18 Jahre alt, Kasetten oder Schallplatten zunehmend unbekannt)
+  - Oder Interessen: Fußballverein oder Startrek Fans
+
+-> Damit alles so glatt läuft: Motivation und Zielgruppe immer klar
+-> Nach Grundlagen jetzt detailiert die Erstellung einer Visualisierung
 
 ## VISUALISIERUNGSPIPELINE
 Zuerst einfach erklären, dann etwas "philosophisch  
