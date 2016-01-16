@@ -219,7 +219,6 @@ body {
 .reveal .imgbox {
   border-width: thin;
   border-style: solid;
-  box-shadow: 10px 10px 10px rgba(100, 0, 0, 0.5);
   margin: 15px 0px;}
 
 .reveal a img {
