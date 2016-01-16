@@ -15,7 +15,10 @@
    id="svg3610"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="visualisierungspipeline.svg">
+   sodipodi:docname="visualisierungspipeline.svg"
+   inkscape:export-filename="/home/richard/git/seminartalk/images/figures/visualisierungspipeline.png"
+   inkscape:export-xdpi="299"
+   inkscape:export-ydpi="299">
   <defs
      id="defs3612">
     <marker
@@ -129,16 +132,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.61399264"
-     inkscape:cx="438.62491"
-     inkscape:cy="291.52755"
-     inkscape:current-layer="layer1"
+     inkscape:cx="440.15486"
+     inkscape:cy="204.1897"
+     inkscape:current-layer="g4536"
      id="namedview3614"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1855"
-     inkscape:window-height="1176"
-     inkscape:window-x="65"
+     inkscape:window-width="1280"
+     inkscape:window-height="1000"
+     inkscape:window-x="1920"
      inkscape:window-y="24"
      inkscape:window-maximized="1">
     <sodipodi:guide
@@ -156,7 +159,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -164,6 +167,52 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
+    <g
+       id="g4536"
+       transform="translate(-29.937194,-7.7114434e-6)">
+      <rect
+         y="18.75429"
+         x="81.570419"
+         height="30.167341"
+         width="193.73355"
+         id="rect3619-6-6"
+         style="fill:#0000ff;fill-opacity:0.14871796;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <flowRoot
+         transform="translate(87.034245,-64.331114)"
+         style="font-style:normal;font-weight:normal;font-size:11.28888893px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="flowRoot4421"
+         xml:space="preserve"><flowRegion
+           id="flowRegion4423"><rect
+             style="stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+             y="90.031128"
+             x="36.65715"
+             height="28.843086"
+             width="117.32588"
+             id="rect4425" /></flowRegion><flowPara
+           id="flowPara4427">Daten (-gewinnung)</flowPara></flowRoot>    </g>
+    <g
+       id="g4529"
+       transform="translate(-20.83657,-5.3086997)">
+      <rect
+         y="74.008064"
+         x="72.469795"
+         height="30.167341"
+         width="193.73355"
+         id="rect3619-6-3"
+         style="fill:#0000ff;fill-opacity:0.14871796;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <flowRoot
+         transform="translate(78.396641,-9.0773394)"
+         style="font-style:normal;font-weight:normal;font-size:11.28888893px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="flowRoot4421-3"
+         xml:space="preserve"><flowRegion
+           id="flowRegion4423-4"><rect
+             style="stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+             y="90.031128"
+             x="36.65715"
+             height="30.911518"
+             width="111.35041"
+             id="rect4425-9" /></flowRegion><flowPara
+           id="flowPara4427-1">Filter (Bereinigung)</flowPara></flowRoot>    </g>
     <g
        id="g4522"
        transform="translate(-35.264915,-4.2951066e-7)">
@@ -187,52 +236,6 @@
              width="183.18033"
              id="rect4425-95" /></flowRegion><flowPara
            id="flowPara4427-5">Darstellung (Implementierung)</flowPara></flowRoot>    </g>
-    <g
-       id="g4536"
-       transform="translate(-29.937194,-7.7114434e-6)">
-      <flowRoot
-         transform="translate(87.034245,-64.331114)"
-         style="font-style:normal;font-weight:normal;font-size:11.28888893px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="flowRoot4421"
-         xml:space="preserve"><flowRegion
-           id="flowRegion4423"><rect
-             style="stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
-             y="90.031128"
-             x="36.65715"
-             height="30.911518"
-             width="111.35041"
-             id="rect4425" /></flowRegion><flowPara
-           id="flowPara4427">Daten(-gewinnung)</flowPara></flowRoot>      <rect
-         y="18.75429"
-         x="81.570419"
-         height="30.167341"
-         width="193.73355"
-         id="rect3619-6-6"
-         style="fill:#0000ff;fill-opacity:0.14871796;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    </g>
-    <g
-       id="g4529"
-       transform="translate(-20.83657,-5.3086997)">
-      <flowRoot
-         transform="translate(78.396641,-9.0773394)"
-         style="font-style:normal;font-weight:normal;font-size:11.28888893px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="flowRoot4421-3"
-         xml:space="preserve"><flowRegion
-           id="flowRegion4423-4"><rect
-             style="stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
-             y="90.031128"
-             x="36.65715"
-             height="30.911518"
-             width="111.35041"
-             id="rect4425-9" /></flowRegion><flowPara
-           id="flowPara4427-1">Filter(-bereinigung)</flowPara></flowRoot>      <rect
-         y="74.008064"
-         x="72.469795"
-         height="30.167341"
-         width="193.73355"
-         id="rect3619-6-3"
-         style="fill:#0000ff;fill-opacity:0.14871796;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    </g>
     <g
        id="g4515"
        transform="translate(-26.686973,-2.8168565)">
