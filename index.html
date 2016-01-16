@@ -36,11 +36,11 @@
 		<script>
 		$(document).ready(function() {
 			Reveal.initialize({
-				controls: true,
-				progress: true,
+				controls: false,
+				progress: false,
 				history: true,
 				center: true,
-				slideNumber: true,
+				slideNumber: false,
 				transition: 'slide',
 				backgroundTransition: 'fade',
 
@@ -94,18 +94,18 @@
 				<!-- Einführung in die Problematik -->
 				<section data-state="none">
 					<h1>Roadmap</h1>
-					<img style="margin:50px;" src="images/overview.png" />
+					<img style="margin:50px;" src="images/overview.png"/>
 				</section>
 
 				<!-- Visualisierungsworkflow -->
-				<section style="text-align: left;" data-state="pipeline" data-transition="slide">
+				<section data-state="pipeline" data-transition="slide">
 					<h2>Grundlagen</h2>
 					<p style="text-align:center;">
 						<img src="images/visualization.png"/>
 					</p>
 				</section>
 				<!-- Visualisierungspipeline -->
-				<section style="text-align: left;" data-state="pipeline" data-transition="slide">
+				<section data-state="pipeline" data-transition="slide">
 					<h2>Visualisierungspipeline</h2>
 					<p style="text-align:center;">
 						<img src="images/figures/visualisierungspipeline.jpeg"/>
@@ -116,20 +116,20 @@
 				<!-- Skalierung -->
 				<section style="text-align:center;" data-state="mistake" data-transition="fade">
 					<h2>Irreführende Skalierung</h2>
-					<img class="imgbox" height=300 align="center" src="images/figures/foxbad.png"/>
-					<img class="imgbox" height=300 align="center" src="images/figures/foxgood.png"/>
+					<img class="imgbox" height=400 align="center" src="images/figures/foxbad.png"/>
+					<img class="imgbox" height=400 align="center" src="images/figures/foxgood.png"/>
 				</section>
 				<!-- Effekte -->
 				<section style="text-align:center;" data-state="mistake" data-transition="fade">
 					<h2>Verzerrung durch Effekte</h2>
-					<img class="imgbox" height=300 align="center" src="images/figures/usshare_bad.jpeg"/>
-					<img class="imgbox" height=300 align="center" src="images/figures/fixedusshare.jpeg"/>
+					<img class="imgbox"  height=300 align="center" src="images/figures/usshare_bad.jpeg"/>
+					<img class="imgbox"  height=300 align="center" src="images/figures/fixedusshare.jpeg"/>
 				</section>
 				<!-- Chartjunk -->
 				<section style="text-align:center;" data-state="mistake" data-transition="fade">
 					<h2>Chartjunk</h2>
-					<img class="imgbox" height=300 align="center" src="images/figures/chartjunk_1.jpeg"/>
-					<img class="imgbox" height=300 align="center" src="images/figures/chartjunk_2.jpeg"/>
+					<img class="imgbox" height=400 align="center" src="images/figures/chartjunk_1.jpeg"/>
+					<img class="imgbox" height=400 align="center" src="images/figures/chartjunk_2.jpeg"/>
 				</section>
 				<!-- Data-Ink Ratio -->
 				<section style="text-align:center;" data-state="mistake" data-transition="fade">
@@ -140,14 +140,14 @@
 				<!-- Kreisdiagramme -->
 				<section style="text-align:center;" data-state="mistake" data-transition="fade">
 					<h2>Kreisdiagramme</h2>
-					<img class="imgbox" width=500 align="center" src="images/figures/piebad.jpeg"/>
-					<img class="imgbox" width=500 align="center" src="images/figures/piegood.jpeg"/>
+					<img class="imgbox" width=600 align="center" src="images/figures/piebad.jpeg"/>
+					<img class="imgbox" width=600 align="center" src="images/figures/piegood.jpeg"/>
 				</section>
 
 				<!-- Unterschiedliche Graphen -->
-				<section style="text-align: left;" data-transition="slide" data-state="choice">
+				<section data-transition="slide" data-state="choice">
 					<p style="text-align:center;">
-						<h2>1- und 2-Dimensional</h2>
+						<h2>1- und 2-Dimensionale Daten</h2>
 						<p style="text-align:center;">
 							<img src="images/figures/nd1.png" width="250" height="250"/>
 							<img src="images/figures/nd2.png" width="250" height="250"/>
@@ -160,9 +160,9 @@
 						</p>
 					</p>
 				</section>
-				<section style="text-align: left;" data-transition="slide" data-state="choice">
+				<section data-transition="slide" data-state="choice">
 					<p style="text-align:center;">
-						<h2>3-Dimensional</h2>
+						<h2>3-Dimensionale Daten</h2>
 						<p style="text-align:center;">
 							<img src="images/figures/3d1.png" height="250" width="400"/>
 							<img src="images/figures/3d2.png" height="250" width="400"/>
@@ -174,52 +174,87 @@
 					</p>
 				</section>
 				<section>
-					<section style="text-align: left;" data-transition="fade" data-state="choice">
+					<section data-transition="fade" data-state="choice">
 						<p style="text-align:center;">
-							<h2>n-Dimensional</h2>
+							<h2>n-Dimensionale Daten</h2>
 							<p style="text-align:center;">
 								<img src="images/figures/hd1.png" height="440px"/>
 							</p>
 						</p>
 					</section>
-					<section style="text-align: left;" data-transition="fade" data-state="choice">
+					<section data-transition="fade" data-state="choice">
 						<p style="text-align:center;">
-							<h2>n-Dimensional</h2>
+							<h2>n-Dimensionale Daten</h2>
 							<p style="text-align:center;">
 								<img src="images/figures/hd2.png" height="440px"/>
 							</p>
 						</p>
 					</section>
-					<section style="text-align: left;" data-transition="fade" data-state="choice">
+					<section data-transition="fade" data-state="choice">
 						<p style="text-align:center;">
-							<h2>n-Dimensional</h2>
+							<h2>n-Dimensionale Daten</h2>
 							<p style="text-align:center;">
 								<img src="images/figures/spm.png" height="440px"/>
 							</p>
 						</p>
 					</section>
-					<section style="text-align: left;" data-transition="fade" data-state="choice">
+					<section data-transition="fade" data-state="choice">
 						<p style="text-align:center;">
-							<h2>n-Dimensional</h2>
+							<h2>n-Dimensionale Daten</h2>
 							<p style="text-align:center;">
 								<img src="images/figures/parallelcreate.png" width="900px"/>
 							</p>
 						</p>
 					</section>
-					<section style="text-align: left;" data-transition="fade" data-state="choice">
+					<section data-transition="fade" data-state="choice">
 						<p style="text-align:center;">
-							<h2>n-Dimensional</h2>
+							<h2>n-Dimensionale Daten</h2>
 							<p style="text-align:center;">
 								<img src="images/figures/parallel.png" width="700px"/>
 							</p>
 						</p>
 					</section>
 				</section>
-				<section style="text-align: left;" data-transition="slide" data-state="none">
+				<section data-transition="slide" data-state="none">
 					<p style="text-align:center;">
 						<h2>Zusammenfassung</h2>
 						<p style="text-align:center;">
 							<img src="images/result.png"/>
+						</p>
+					</p>
+				</section>
+				<section style="text-align: left;" data-transition="slide" data-state="none">
+					<p>
+						<h5 style="text-align:center;">Quellen</h5>
+						<p style="font-size:12px;">
+							<strong>Irrefführende Skalierung</strong></br>
+							- Yau N. Fox News continues charting excellence [Internet]. [abgerufen am 14 Dec 2015]. Verfügbar unter: http://flowingdata.com/2012/08/06/fox-news-continues-charting-excellence/</br>
+							<strong>Verzerrung durch Effekte</strong></br>
+							- Lein AZ. Fictional Smartphone Market Share Numbers Are Fun [Internet]. [abgerufen am 14 Dec 2015]. Verfügbar unter: http://pocketnow.com/smartphone-news/fictional-smartphone-market-share-numbers-are-fun</br>
+							<strong>Chartjunk</strong></br>
+							-  Tufte ER. The visual display of quantitative information. Cheshire, CT, USA: Graphics Press; 1986.</br>
+							<strong>Data-Ink Ratio</strong></br>
+							Darkhorse Analytics data Looks better naked [Internet]. [abgerufen am 16 Jan 2016]. Verfügbar unter: https://darkhorseanalytics.com/blog/data-looks-better-naked/</br>
+							<strong>Kreisdiagramme</strong></br>
+							- Schutz. Piecharts [Internet]. [abgerufen am 14 Dec 2015]. Verfügbar unter: https://en.wikipedia.org/wiki/File:Piecharts.svg</br>
+							<strong>1- und 2-Dimensionale Daten</strong></br>
+							- Z A. Visualizing principal components with R and Sachi Olympic Athletes [Internet]. [abgerufen am 14 Dec 2015]. Verfügbar unter: http://heuristicandrew.blogspot.de/2014/03/visualizing-principal-components-with-r.html</br>
+							- Analytics C. Stacked bar chart [Internet]. [abgerufen am 14 Dec 2015]. Verfügbar unter: http://bokeh.pydata.org/en/latest/docs/gallery/stacked_bar_chart.html</br>
+							- Analytics C. Ggplot line [Internet]. [abgerufen am 14 Dec 2015]. Verfügbar unter: http://bokeh.pydata.org/en/latest/docs/gallery/ggplot_line.html</br>
+							- Analytics C. Stacked bar chart [Internet]. [abgerufen am 14 Dec 2015]. Verfügbar unter: http://bokeh.pydata.org/en/latest/docs/gallery/stacked_bar_chart.html</br>
+							- Anonymous Psychology Research Methods: Core Skills and Concepts [Internet]. [abgerufen am 16 Jan 2016]. Verfübar unter: http://2012books.lardbucket.org/books/psychology-research-methods-core-skills-and-concepts/s16-03-expressing-your-results.html</br>
+							- Analytics C. Boxplot [Internet]. [abgerufen am 14 Dec 2015]. Verfügbar unter: http://bokeh.pydata.org/en/latest/docs/gallery/boxplot.html	</br>
+							<strong>3-Dimensional</strong></br>
+							- Matplotlib Examples [Internet]. [abgerufen am 16 Jan 2016]. Verfügbar unter: http://matplotlib.org/examples/mplot3d/scatter3d_demo.html</br>
+							- Analytics C. Cat heatmap chart [Internet]. [abgerufen am 14 Dec 2015]. Verfügbar unter: http://bokeh.pydata.org/en/latest/docs/gallery/cat_heatmap_chart.html</br>
+							- Snow J. Mapping the 1854 London Cholera Outbreak [Internet]. 1986 [abgerufen am 18 Nov 2015]. Verfügbar unter: https://www.udel.edu/johnmack/frec682/cholera/</br>
+							<strong>3-Dimensionale Daten</strong></br>
+							 - Lehmann DJ, Albuquerque G, Eisemann M, Tatu A, Keim DA, Schumann H, et al. Visualisierung und analyse multidimensionaler datensätze. Informatik Spektrum [Internet]. 2010;33(6):589–600. Verfügbar unter: http://dblp.uni-trier.de/db/journals/insk/insk33.html#LehmannAETKSMT10</br>
+							 - Pandas [Internet]. [abgerufen am 16 Jan 2015]. Verfügbar unter: http://pandas.pydata.org/pandas-docs/version/0.15.0/visualization.html</br>
+							 - Heinrich J. Parallel Coordinates [Internet]. [abgerufen am 15 Dec 2015]. Verfügbar unter: https://www.vis.uni-stuttgart.de/en/research/information-visualisation-and-visual-analytics/parallel-coordinates.html</br>
+</br></br>
+							Alle Grafiken zu denen hire keine Quellen angegeben wurden sind entweder bereits durch eine Creative Commons Lizenz ohne Namensnennung oder eine Public Domain Lizenz freigegeben und können somit ohne angabe der Quelle verwendet werden.</br>
+							Jegliche andere Grafik ist im Rahmen dieses Vortrag erstellt worden und unter der Creative Commons 4.0 (CC-0) Lizenz verfügbar. </br>
 						</p>
 					</p>
 				</section>
